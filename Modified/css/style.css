@@ -27,11 +27,18 @@ blockquote {
     margin: auto;
 
 }
+.footerText {
+    color: #fff;
+    font-weight: 600;
+    margin-left: 2rem;
+
+}
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
+
 
 a:hover {
 
@@ -806,6 +813,15 @@ h4 {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
+.btn-atomic-tangerine:active {
+    background: #c27956!important;
+    color: #FFFFFF!important;
+}
+.btn-atomic-tangerine:focus {
+    border: solid 1px black;
+    background: #c27956!important;
+}
+
 
 .ltc-white {
     color: #FFFFFF!important;
@@ -841,7 +857,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.bmp");
+    background-image: url("../img/image-de-presentation-min.jpg");
 }
 
 @media (max-width: 1024px) {
